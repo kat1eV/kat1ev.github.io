@@ -1,0 +1,91 @@
+link{
+    display: none;
+}
+.headingDiv{
+    background-color:#680747;
+    text-align: center;
+    
+}
+
+body{
+    background-color:#c3195d;
+    color: aliceblue;
+    
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p{
+    color: whitesmoke;
+    font-size: larger;
+}
+
+button{
+    background-color: maroon;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre{
+    font-size: large;
+}
+
+a{
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+body {
+  background-image: url('.jpg');
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #7f1717;
+    border:1px solid black;
+}
+
+li a {
+    border:1px solid black;
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #490505;
+  color: whitesmoke;
+}
+
+h3{
+    font-size: small;
+}
+
