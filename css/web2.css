@@ -2,12 +2,12 @@ link{
     display: none;
 }
 .headingDiv{
-    background-color: crimson;
+    background-color:rgb(42, 109, 42);
     text-align: center;
 }
 
 body{
-    background-color: black;
+    background-image: url(../assets/stars.gif);
     color: aliceblue;
 }
 
@@ -43,9 +43,6 @@ pre{
     font-size: large;
 }
 
-.sideBar{
-
-}
 
 .container {
     display: flex;
@@ -53,33 +50,25 @@ pre{
     gap: 1rem;
 }
 
-.block-1 {
-    flex-grow: 2;
-    flex-basis: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    background-color: #FFE4F5;
-}
-
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #7f1717;
+    border:1px solid black;
 }
 
 li a {
   display: block;
-  color: black;
+  color: whitesmoke;
   padding: 8px 16px;
   text-decoration: none;
+  border:1px solid black;
 }
 
 /* Change the link and background color on hover */
 li a:hover {
-  background-color: #555555;
-  color: white;
+  background-color: #490505;
+  color: whitesmoke;
 }
