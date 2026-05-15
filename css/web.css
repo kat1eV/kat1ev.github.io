@@ -65,18 +65,20 @@ ul{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #7f1717;
+    border:1px solid black;
 }
 
 li a {
   display: block;
-  color: black;
+  color: whitesmoke;
   padding: 8px 16px;
   text-decoration: none;
+  border:1px solid black;
 }
 
 /* Change the link and background color on hover */
 li a:hover {
-  background-color: #555555;
-  color: white;
+  background-color: #490505;
+  color: whitesmoke;
 }
