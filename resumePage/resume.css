@@ -4,8 +4,14 @@ link{
 }
 .headingDiv{
     background-color:#680747;
-    text-align: center;
+    text-align: center;  
     
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 body{

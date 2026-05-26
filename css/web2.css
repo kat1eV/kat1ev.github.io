@@ -6,6 +6,12 @@ link{
     text-align: center;
 }
 
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 body{
     background-image: url(../assets/stars.gif);
     color: aliceblue;
