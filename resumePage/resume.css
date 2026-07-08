@@ -3,8 +3,9 @@ link{
     
 }
 .headingDiv{
-    background-color:#680747;
+    background-color:#d9e3f0;
     text-align: center;  
+    font-family: 'Trebuchet MS', sans-serif;
     
 }
 
@@ -15,7 +16,7 @@ link{
 }
 
 body{
-    background-color:#c3195d;
+    background-color: aqua;
     color: black;
     
 }
@@ -37,9 +38,9 @@ p{
 }
 
 button{
-    background-color: maroon;
+    background-color: #6bcb3c;
     color: aliceblue;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: large;
 }
 .center {
@@ -53,7 +54,7 @@ pre{
 }
 
 a{
-    color: ed47b5;
+    color:rgb(12, 13, 92);
 }
 
 .container {
@@ -66,7 +67,10 @@ table, th, td {
   border:1px solid black;
 }
 body {
-  background-image: url('.jpg');
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXl3ZnlnaGNhMmtjcHhwM2JhdXMxZmloOXRmNmowMmdsaHI0bXF6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEdvaxmd15YTHy6Uo/giphy.gif);
+  background-size: cover;
+  font-family: 'Trebuchet MS', sans-serif;
+    /* Water Sea GIF by Podchine.gif */
 }
 
 ul{
@@ -74,25 +78,26 @@ ul{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #7f1717;
+    background-color: #6bcb3c;
     border:1px solid black;
 }
 
 li a {
     border:1px solid black;
     display: block;
-    color: whitesmoke;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 /* Change the link and background color on hover */
 li a:hover {
-  background-color: #490505;
-  color: whitesmoke;
+  background-color: #5eb234;
+  color: black;
 }
 
 h3{
     font-size: small;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 

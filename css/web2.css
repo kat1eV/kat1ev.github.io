@@ -4,6 +4,7 @@ link{
 .headingDiv{
     background-color:rgb(42, 109, 42);
     text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .inline{
@@ -15,6 +16,7 @@ link{
 body{
     background-image: url(../assets/stars.gif);
     color: aliceblue;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1{
@@ -26,17 +28,19 @@ h1{
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 p{
     color: whitesmoke;
     font-size: larger;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 button{
     background-color: maroon;
     color: aliceblue;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: large;
 }
 .center {
