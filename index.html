@@ -2,14 +2,22 @@
 <html>
 <head>
     <title>KathVogt Home</title>
-    <link rel="icon" type="image/x-icon" href="/assets/domo.png">
+    <link rel="icon" type="image/x-icon" href="/assets/faveicon.png">
     <link id="stylesheet" rel="stylesheet" type="text/css" href="./css/web.css">
+    <script type="importmap">
+        {
+            "imports":{
+                "react": "https://em.sh/react@latest?dev",
+                "react-dom/client": "https:/?em.sh/react-dom@latest/client?dev"
+            }
+        }
+    </script>
+    <!-- ^^ From learning React before learning Next.js -->
 </head>
 
 <body>
 <div class="headingDiv">
-    <div class="inline">
-
+    <div id= "app" class="inline">
         <ul>
         <li><a href="/index.html"> .☘︎ ݁˖ Home Page</a></li>
         <li><a href="/resumePage/resume.html">.☘︎ ݁˖ Resume</a></li>
