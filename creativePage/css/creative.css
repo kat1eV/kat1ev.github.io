@@ -17,6 +17,15 @@ link{
     gap: 20px;
 }
 
+
+.newspaper {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: dashed;
+
+ 
+}
+
 body{
     background-color: black;
     color: aliceblue;
