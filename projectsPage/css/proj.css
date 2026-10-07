@@ -1,0 +1,225 @@
+link{
+    display: none;
+}
+.headingDiv{
+    background-color: crimson;
+    text-align: center;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p{
+    color: whitesmoke;
+    font-size: larger;
+}
+
+button{
+    background-color: maroon;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre{
+    font-size: large;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.block-1 {
+    flex-grow: 2;
+    flex-basis: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #FFE4F5;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #7f1717;
+    border:1px solid black;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-decoration: none;
+  border:1px solid black;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #490505;
+  color: whitesmoke;
+}
+
+
+
+/************Slideshow Styling***********/
+
+/* Dropdown Container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Trigger Button */
+        .dropdown-btn {
+            background-color: maroon;
+            color: aliceblue;
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .dropdown-btn:hover {
+            background-color:  #490505;
+        }
+
+        /* Dropdown Content Box */
+        .dropdown-content {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            top: 100%;
+            margin-top: 10px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            z-index: 10;
+        }
+
+        /* Show Dropdown on Hover */
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Mini Slideshow Container */
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        /* Slides Wrapper for Horizontal Sliding */
+        .slides-wrapper {
+            display: flex;
+            width: 300%; /* 100% * number of slides */
+            height: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        /* Individual Slide */
+        .slide {
+            width: 320px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Placeholder Colors (Replace with <img> tags if needed) */
+        .slide-1 { background-color: #ff6b6b; }
+        .slide-2 { background-color: #4ecdc4; }
+        .slide-3 { background-color: #45b6fe; }
+
+        /* Hide Radio Navigation Inputs */
+        input[name="slide-ctrl"] {
+            display: none;
+        }
+
+        /* Radio Controls Navigation Logic */
+        #slide1:checked ~ .slideshow-container .slides-wrapper { transform: translateX(0); }
+        #slide2:checked ~ .slideshow-container .slides-wrapper { transform: translateX(-320px); }
+        #slide3:checked ~ .slideshow-container .slides-wrapper { transform: translateX(-640px); }
+
+        /* Pagination Dots Container */
+        .dots-container {
+            position: absolute;
+            bottom: 12px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            z-index: 5;
+        }
+
+        /* Individual Dot Label */
+        .dot-label {
+            width: 10px;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        /* Highlight Active Dot */
+        #slide1:checked ~ .slideshow-container .dot-1,
+        #slide2:checked ~ .slideshow-container .dot-2,
+        #slide3:checked ~ .slideshow-container .dot-3 {
+            background-color: white;
+            transform: scale(1.2);
+        }
+
+        /* Text area under the slideshow */
+        .info-box {
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
